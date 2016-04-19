@@ -10,12 +10,12 @@ PERIOD = 10
 #    padding = 7-len(binstr)
 #    return '0'*padding+binstr
         
-def bench():
+def bcd2led_bench():
         led = Signal(intbv(0)[7:])
 	bcd = Signal(intbv(0)[4:])
 	clock = Signal(bool(0))
 	counter= Signal(intbv(0)[7:])
-	dut = bcd2led(counter, led, bcd, clock)
+	dut = bcd2led( led, bcd, clock)
         
 
 	@always(delay(PERIOD//2))
@@ -38,6 +38,6 @@ def bench():
 
 
 def test_bench():
-	tb = traceSignals(bench)
+	tb = traceSignals(bcd2led_bench)
 	sim = Simulation(tb)
 	sim.run()

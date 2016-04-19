@@ -7,7 +7,7 @@ from button_led import m_button_led
 
 def compile():
     # get the development board the design is targetting
-    brd = get_xilinx_board('xula')
+    brd = get_xilinx_board('xula2')
 
     # assign the top-level HDL module (python function)
     # as the top-level

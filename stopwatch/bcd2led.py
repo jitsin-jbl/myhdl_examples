@@ -8,7 +8,7 @@ for key, val in seven_segment.encoding.items():
 		code[key] = int(val, 2)
 code = tuple(code)
 
-def bcd2led(counter, led, bcd, clock):
+def bcd2led( led, bcd, clock):
 
     """ bcd to seven segment led convertor.
 
