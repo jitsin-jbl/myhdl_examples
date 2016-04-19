@@ -7,3 +7,6 @@
 [submodule "KalmanFilter"]
 	path = KalmanFilter
 	url = https://github.com/josyb/KalmanFilter.git
+[submodule "myhdl_butterfly"]
+	path = myhdl_butterfly
+	url = https://github.com/ddetienne/myhdl_butterfly.git
