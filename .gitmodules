@@ -4,3 +4,6 @@
 [submodule "jpeg-2000-test"]
 	path = jpeg-2000-test
 	url = https://github.com/develone/jpeg-2000-test.git
+[submodule "KalmanFilter"]
+	path = KalmanFilter
+	url = https://github.com/josyb/KalmanFilter.git
