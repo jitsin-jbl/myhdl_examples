@@ -1,6 +1,3 @@
-[submodule "SDRAM_Controller"]
-	path = SDRAM_Controller
-	url = jabil@10.125.72.72:/home/jabil/git/SDRAM_Controller
 [submodule "jpeg-2000-test"]
 	path = jpeg-2000-test
 	url = https://github.com/develone/jpeg-2000-test.git
@@ -19,3 +16,6 @@
 [submodule "recurse"]
 	path = recurse
 	url = https://github.com/josyb/recurse.git
+[submodule "SDRAM_Controller"]
+	path = SDRAM_Controller
+	url = jitsin@192.168.1.19:/mnt/MyVolume/anonymous/jitsin/git/SDRAM_Controller
