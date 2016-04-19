@@ -13,3 +13,6 @@
 [submodule "hdlregs"]
 	path = hdlregs
 	url = https://github.com/noasic/hdlregs.git
+[submodule "gol"]
+	path = gol
+	url = https://github.com/josyb/gol.git
