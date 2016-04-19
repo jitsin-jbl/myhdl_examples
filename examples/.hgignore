@@ -1,0 +1,18 @@
+\.svn/
+\.DS_Store
+dev_snapshot/    # 
+archive/         # don't revision archives
+tmp_install/     # this directory should be removed
+installs/        # have some 3rd party tools in the install dir
+build/           # python packages have a build folder after install, ignore these
+dist/            # distribution files for python package releases
+hdl/zpu/og       # this directory should be removed	       
+.*[\~].*         # emacs backputs
+.*vcd.*
+.*lxt.*
+.*\.pyc
+.*xdb/
+.*\.eps          # ignore by defaylt graphics, too many generated
+.*\.png          # ignore by default graphics, too many generated
+\.backups
+\.hgignore$

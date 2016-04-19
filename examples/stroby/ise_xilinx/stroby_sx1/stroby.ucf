@@ -1,0 +1,10 @@
+# UCF file automatically create by "stroby_run_tools.py"
+#
+NET "led[0]"  LOC = "P90" ;
+NET "led[1]"  LOC = "P91" ;
+NET "led[2]"  LOC = "P92" ;
+NET "led[3]"  LOC = "P94" ;
+NET "srst"  LOC = "P13" ;
+NET "clk"  LOC = "P35" ;
+NET "led_b" LOC = "P98" ;
+#

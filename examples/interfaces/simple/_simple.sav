@@ -1,0 +1,61 @@
+[timestart] 0
+[size] 2336 1297
+[pos] -1 -1
+*-6.771809 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.iGpios_0.
+@28
+top.clock
+top.reset
+@22
+top.buttons[7:0]
+top.leds[7:0]
+@28
+top.iController.clk
+top.iController.rst
+@200
+-Wishbone
+@22
+top.iController.adr[15:0]
+@28
+top.iController.ack
+top.iController.cyc
+top.iController.stb
+top.iController.we
+@200
+-GPIO1
+@22
+top.iGpios_0.iReg.adr[15:0]
+@28
+top.iGpios_0.iReg.cyc
+top.iGpios_0.iReg.stb
+top.iGpios_0.iReg.we
+top.iGpios_0.iReg.ack
+@200
+-Bus Combine
+@28
+top.iBus.clk
+top.iBus.ack
+top.iBus.ack0
+top.iBus.ack1
+top.iBus.ack2
+top.iBus.ack3
+top.iBus.ack4
+top.iBus.ack5
+top.iBus.ack6
+top.iBus.ack7
+@200
+-
+@23
+top.iBus.dat_i[7:0]
+@22
+top.iBus.dat0[7:0]
+top.iBus.dat1[7:0]
+top.iBus.dat2[7:0]
+top.iBus.dat3[7:0]
+top.iBus.dat4[7:0]
+top.iBus.dat5[7:0]
+top.iBus.dat6[7:0]
+top.iBus.dat7[7:0]
+[pattern_trace] 1
+[pattern_trace] 0

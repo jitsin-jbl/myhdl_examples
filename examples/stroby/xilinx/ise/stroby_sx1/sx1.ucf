@@ -1,0 +1,14 @@
+#
+NET "reset" LOC = "p13" ;
+NET "led<0>" LOC = "p90" ;
+NET "led<1>" LOC = "p91" ;
+NET "led<2>" LOC = "p92" ;
+NET "led<3>" LOC = "p94" ;
+NET "led<4>" LOC = "p95" ;
+NET "led<5>" LOC = "p96" ;
+NET "led<6>" LOC = "p99" ;
+NET "clock" LOC = "p35" ;
+#
+NET "clock" TNM_NET = "clock"; 
+TIMESPEC "TS_clock" = PERIOD "clock" 20.8333333 ns HIGH 50%;
+#

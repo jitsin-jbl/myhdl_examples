@@ -1,0 +1,54 @@
+$date
+    Mon Oct 26 14:01:39 2015
+$end
+$version
+    MyHDL 0.9.0
+$end
+$timescale
+    1ns
+$end
+
+$scope module TestFreqResponse $end
+$var real 1 ! cnt $end
+$var reg 1 " clk $end
+$var real 1 # xf $end
+$var reg 1 $ ts $end
+$var reg 24 % y $end
+$var reg 24 & x $end
+$scope module dut $end
+$scope module dut $end
+$var reg 24 % y $end
+$var reg 24 & x $end
+$var reg 1 $ ts $end
+$var reg 1 " clk $end
+$scope module hdl $end
+$var reg 1 " clk $end
+$var reg 1 $ ts $end
+$var reg 49 ' yacc $end
+$var reg 24 % y $end
+$var reg 24 & x $end
+$var reg 24 ( ys $end
+$var reg 49 ) ffd(0) $end
+$var reg 49 * ffd(1) $end
+$var reg 49 + fbd(0) $end
+$var reg 49 , fbd(1) $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+s32 !
+0"
+s0.0 #
+0$
+b000000000000000000000000 %
+b000000000000000000000000 &
+b0000000000000000000000000000000000000000000000000 '
+b000000000000000000000000 (
+b0000000000000000000000000000000000000000000000000 )
+b0000000000000000000000000000000000000000000000000 *
+b0000000000000000000000000000000000000000000000000 +
+b0000000000000000000000000000000000000000000000000 ,
+$end
