@@ -16,3 +16,6 @@
 [submodule "gol"]
 	path = gol
 	url = https://github.com/josyb/gol.git
+[submodule "recurse"]
+	path = recurse
+	url = https://github.com/josyb/recurse.git
