@@ -10,3 +10,6 @@
 [submodule "myhdl_butterfly"]
 	path = myhdl_butterfly
 	url = https://github.com/ddetienne/myhdl_butterfly.git
+[submodule "hdlregs"]
+	path = hdlregs
+	url = https://github.com/noasic/hdlregs.git
